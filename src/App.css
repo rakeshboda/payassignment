@@ -1,0 +1,129 @@
+.app-container{
+  min-height: 100vh;
+}
+
+.app-container{
+  background-color: #FFF;
+}
+.destinations-container{
+  width: 85%;
+  margin: auto;
+}
+.destinations{
+  width: 100%;
+  display: flex;
+  overflow: auto;
+
+}
+.discounts-container{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  margin-top:10px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+.dis-text{
+  width: 90%;
+}
+.dis-img-container{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dis-img{
+  width: 60%;
+  border-radius: 400px;
+}
+@media (min-width:768px){
+  .discounts-container{
+    flex-direction: row;
+  }
+  .dis-text{
+    width: 47%;
+  }
+  .dis-img-container{
+    width:38%;
+    order:1;
+  }
+}
+.booknow-con{
+  width:90%;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.booknow-img{
+  width:60%;
+  margin:auto;
+  margin-bottom: 10px;
+  border-radius: 500px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+}
+.booknow-component{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media (min-width:768px){
+  .booknow-img{
+    width:25%;
+  }
+  .booknow-con{flex-direction: row;}
+  .booknow-component{
+    width: 50%;
+  } 
+}
+.testimonials-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top:20px;
+}
+.un-ordere-list{
+  width:80%;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  overflow: auto;
+}
+.footer{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px;
+  text-align: center;
+}
+.fin-foo{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.foo-ul{
+  list-style-type: none;
+  display: flex;
+}
+.foo-li{
+  margin: 10px;
+  font-size: 13px;
+  color: grey;
+}
+.foo-li2{
+  margin: 10px;
+  font-size: 13px;
+  color: black;
+}

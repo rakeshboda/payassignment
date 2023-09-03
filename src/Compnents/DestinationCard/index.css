@@ -1,0 +1,20 @@
+.liElement{
+    width:250px;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px white;
+    flex-shrink: 0;
+}
+.img{
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+.add-con{
+    display: flex;
+    justify-content: space-between;
+}
+.addr{
+    font-size: 13px;
+    columns:red;
+}

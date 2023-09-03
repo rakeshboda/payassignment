@@ -1,0 +1,26 @@
+.mid-container{
+    width: 100%;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.profiles-section{
+    width:100%;
+}
+.mid-text{
+    width:90%;
+    margin-top: 10px;
+}
+@media (min-width:768px){
+    .profiles-section{
+        width: 50%;
+    }
+    .mid-container{
+        flex-direction: row;
+    }
+    .mid-text{
+        width: 40%;
+    }
+}
